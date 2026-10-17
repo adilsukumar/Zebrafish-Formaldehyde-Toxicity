@@ -74,7 +74,18 @@ def write_svg(rows: list[dict], output: Path) -> None:
     for i, row in enumerate(rows):
         x, height = 100 + i * 155, row["mortality"] * 220
         bars.append(f'<rect x="{x}" y="{270-height}" width="80" height="{height}" fill="#236b75"/><text x="{x+40}" y="{255-height}" text-anchor="middle">{row["mortality"]:.0%}</text><text x="{x+40}" y="295" text-anchor="middle">{row["nominal_ppm"]:g} ppm</text>')
-    output.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="620" height="350" viewBox="0 0 620 350"><rect width="620" height="350" fill="white"/><g font-family="sans-serif" font-size="16" fill="#15252a"><text x="310" y="30" text-anchor="middle">Recorded 96-hour mortality (10 adults per group)</text><path d="M65 50V270H560" stroke="#15252a" fill="none"/>'+''.join(bars)+'<text x="310" y="335" text-anchor="middle">One vessel per group; descriptive observations</text></g></svg>', encoding="utf-8")
+    output.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="620" height="350" viewBox="0 0 620 350"><rect width="620" height="350" fill="white"/><g font-family="sans-serif" font-size="16" fill="#15252a"><text x="310" y="30" text-anchor="middle">Recorded 96-hour mortality (10 adults per group)</text><path d="M65 50V270H560" stroke="#15252a" fill="none"/>'+''.join(bars)+'<text x="310" y="335" text-anchor="middle">One vessel per group; descriptive observations</text></g></svg>\n', encoding="utf-8", newline="\n")
+
+
+def portable_output(value):
+    """Round serialized floats to ten decimals for stable cross-platform artifacts."""
+    if isinstance(value, float):
+        return round(value, 10)
+    if isinstance(value, dict):
+        return {key: portable_output(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [portable_output(item) for item in value]
+    return value
 
 
 def main() -> None:
@@ -86,10 +97,11 @@ def main() -> None:
     rows = read_observations(args.data)
     summary = analyze(rows)
     args.output.mkdir(parents=True, exist_ok=True)
-    (args.output / "summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
+    (args.output / "summary.json").write_text(json.dumps(portable_output(summary), indent=2) + "\n", encoding="utf-8", newline="\n")
     write_svg(rows, args.output / "mortality.svg")
     print(json.dumps({"primary_crossing_ppm": summary["primary"]["descriptive_50_percent_crossing_nominal_ppm"], "alternative_crossing_ppm": summary["endpoint_sensitivity"]["descriptive_50_percent_crossing_nominal_ppm"]}, indent=2))
 
 
 if __name__ == "__main__":
     main()
+

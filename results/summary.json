@@ -31,20 +31,20 @@
   ],
   "control_mortality": 0.1,
   "corrected_responses": [
-    0.4444444444444445,
+    0.4444444444,
     1.0
   ],
   "primary": {
     "upper_endpoint_convention": 0.975,
-    "intercept": -3.592753699860271,
-    "slope": 5.276358842200162,
-    "descriptive_50_percent_crossing_nominal_ppm": 42.51464285807945
+    "intercept": -3.5927536999,
+    "slope": 5.2763588422,
+    "descriptive_50_percent_crossing_nominal_ppm": 42.5146428581
   },
   "endpoint_sensitivity": {
     "upper_endpoint_convention": 0.95,
-    "intercept": -2.3241562084183744,
-    "slope": 4.484504917684923,
-    "descriptive_50_percent_crossing_nominal_ppm": 42.97481330024211
+    "intercept": -2.3241562084,
+    "slope": 4.4845049177,
+    "descriptive_50_percent_crossing_nominal_ppm": 42.9748133002
   },
   "limitations": [
     "Two nonzero nominal concentrations",
@@ -54,3 +54,4 @@
     "Life stage follows the final adult report; earlier draft embryo labels are superseded"
   ]
 }
+
