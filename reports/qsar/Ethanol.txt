@@ -1,0 +1,103 @@
+SOURCE REPORT TRANSCRIPTION — see README.md for provenance and known issues.
+
+QSAR Toolbox – Ethanol Toxicity Record
+
+PHYSICOCHEMICAL PROPERTY REPORT – ETHANOL
+1. CHEMICAL IDENTIFICATION
+Chemical name
+Ethanol (Ethyl alcohol)
+CAS No.
+64-17-5
+Molecular formula
+C₂H₆O
+Molecular weight
+46.07 g/mol
+SMILES
+CCO
+2. PHYSICOCHEMICAL PROPERTIES
+Property
+Reference value
+Physical state
+Liquid
+Melting/freezing point
+−114.1 °C
+Boiling point
+78.2 °C
+Density
+0.789 g/cm³ at 20 °C
+Water solubility
+Miscible with water
+Partition coefficient (log Kow)
+≈ −0.31
+pKa
+≈ 15.9 (aqueous)
+Vapour pressure
+≈ 5.95 kPa at 20 °C
+Flammability
+Highly flammable liquid and vapour
+Stability
+Stable under ordinary storage/handling conditions
+pH
+Not normally reported as a defining property of pure ethanol; depends on aqueous solution
+3. RELEVANCE TO AQUATIC TOXICITY
+Ethanol is a small, highly water-miscible organic liquid with a low boiling point and high volatility compared with the other chemicals in this experiment. Its very high water solubility and low log Kow indicate limited tendency for partitioning into non-polar phases. The high flammability is an important handling consideration. These physicochemical properties are relevant when interpreting aquatic toxicity because ethanol readily disperses in water and has comparatively low hydrophobicity.
+4. SOURCE REFERENCES
+PubChem, Ethanol (CID 702).
+OECD QSAR Toolbox 4.9 – physical-chemical property profiling interface (for comparison with Toolbox fields).
+
+AQUATIC TOXICITY REPORT – ETHANOL
+1. Chemical Identity
+Parameter
+Value
+Chemical
+Ethanol (Ethyl alcohol)
+CAS
+64-17-5
+Molecular formula
+C2H6O
+SMILES
+CCO
+2. Zebrafish Aquatic Toxicity
+Primary record selected from QSAR Toolbox: Danio rerio mortality LC50.
+Parameter
+Recorded value
+Organism
+Danio rerio (zebrafish)
+Effect
+Mortality
+Endpoint
+LC50
+Exposure duration
+120 h (5 days)
+LC50
+1.56 × 10^4 mg/L
+Molar value
+338 mM
+Life stage / strain
+AB strain embryos; 2.5–3.7 hpf
+Temperature
+28 °C
+pH
+6.8–7.2
+Study
+Ethanol- and Acetaldehyde-Mediated Developmental Toxicity in Zebrafish
+Source
+Reimers, Flockton & Tanguay
+3. Selected Toxicity-Relevant Profiling
+Profiler
+Result
+Acute aquatic toxicity classification
+Class 5
+Acute aquatic toxicity MOA by OASIS
+Base-surface narcotics
+Aquatic toxicity classification by ECOSAR
+Neutral organics
+Toxic hazard classification by Cramer
+Low (Class I)
+Carcinogenicity
+No alert found
+DNA / Ames / micronucleus alerts
+No alert found
+4. Working Interpretation
+Ethanol has a recorded Danio rerio mortality LC50 of 1.56 × 10^4 mg/L after 120 h (5 days). The selected QSAR Toolbox profiling results classify ethanol as a neutral organic and assign a base-surface narcotic mode of action for acute aquatic toxicity. The Cramer profiler gives Low (Class I) hazard classification, while the selected genotoxicity/carcinogenicity alert profilers report no alert found.
+Note: Exposure duration is retained exactly as reported in the database; the 120 h value is not treated as a 96 h value.

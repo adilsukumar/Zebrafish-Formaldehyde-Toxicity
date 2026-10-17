@@ -21,7 +21,7 @@ python analyze.py
 python -m unittest discover -s tests -v
 ```
 
-`results/summary.json` records inputs, assumptions and outputs. `results/mortality.svg` plots the observed mortality. The original experimental and QSAR report is retained separately; this repository publishes the reproducible analysis rather than the unpublished manuscript.
+`results/summary.json` records inputs, assumptions and outputs. `results/mortality.svg` plots the observed mortality. The [supporting OECD QSAR Toolbox reports](reports/qsar/README.md) include six original DOCX reports, searchable transcriptions and embedded tool depictions. They combine reported Toolbox profiling/database records with literature summaries. The unpublished experimental manuscript and intermediate drafts remain separate.
 
 ## Method and interpretation
 
@@ -35,5 +35,6 @@ This endpoint sensitivity is reported explicitly. Two nonzero concentration grou
 - `analyze.py`: validation, correction and descriptive calculation.
 - `tests/`: regression checks against the report and invalid inputs.
 - `results/`: small, reproducible summary and figure.
+- `reports/qsar/`: original supporting reports, chemical depictions, provenance and known source inconsistencies.
 
 Project maintained by Adil Sukumar. Research authorship is as recorded in the original report. No publication, ethics-approval or independent replication claim is added by this repository.

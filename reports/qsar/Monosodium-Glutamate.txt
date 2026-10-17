@@ -1,0 +1,87 @@
+SOURCE REPORT TRANSCRIPTION — see README.md for provenance and known issues.
+
+QSAR Toolbox – Monosodium glutamate (MSG) Report
+
+PHYSICOCHEMICAL PROPERTY REPORT – MONOSODIUM GLUTAMATE (MSG)
+1. CHEMICAL IDENTIFICATION
+Parameter
+Value
+Chemical name
+Monosodium glutamate (MSG)
+CAS No.
+142-47-2
+Molecular formula
+C₅H₁₀NNaO₅
+Molecular weight
+187.13 g/mol
+SMILES
+C(CC(=O)[O-])[C@@H](C(=O)O)N.O.[Na+]
+2. PHYSICOCHEMICAL PROPERTIES
+Property
+Reference value
+Physical state
+White/off-white crystalline powder
+Melting point
+≈232 °C / decomposes
+Boiling point
+≈225 °C (decomposes)
+Water solubility
+≥100 mg/mL; freely soluble in water
+pH
+≈7.0 for 0.2% solution
+Partition coefficient
+Low hydrophobicity; aquatic ionized form expected
+Vapour pressure
+Not expected to be environmentally important because it is ionic/nonvolatile in water
+Stability
+Water soluble; generally stable under ordinary handling
+3. RELEVANCE TO AQUATIC TOXICITY
+MSG is an ionic, highly water-soluble salt. In water it dissociates into sodium and glutamate ions, so volatilization is expected to be negligible. Its high water solubility and ionic character are important when interpreting aquatic exposure.
+4. SOURCE REFERENCES
+PubChem, Monosodium Glutamate (CID 23689119).
+
+AQUATIC TOXICITY REPORT – Monosodium glutamate (MSG)
+1. Chemical Identity
+Parameter
+Value
+Chemical
+Monosodium glutamate (MSG)
+CAS
+142-47-2
+Molecular formula
+C₅H₁₀NNaO₅
+SMILES
+C(CC(=O)[O-])[C@@H](C(=O)O)N.O.[Na+]
+2. Zebrafish Aquatic Toxicity
+Primary literature record selected for the practical; exposure duration and LC50 are retained exactly as reported.
+Parameter
+Recorded value
+Organism
+Danio rerio (zebrafish) embryos
+Effect
+Mortality
+Endpoint
+LC50
+Exposure duration
+48 hpf
+LC50
+15,200 ppm
+Life stage
+Embryos
+Second reported LC50
+10,300 ppm at 96 hpf
+Study
+Effects of monosodium glutamate on heart beat and the embryonic development of zebrafish
+Source
+Suthamnatpong & Ponpornpisit (2017)
+3. Selected Toxicity-Relevant Profiling
+Profiler
+Result
+Acute aquatic toxicity literature
+LC50 reported by Probit analysis
+Developmental toxicity
+Sublethal and malformation effects observed in the study
+4. Working Interpretation
+MSG produced a reported LC50 of 15,200 ppm at 48 hpf and 10,300 ppm at 96 hpf in zebrafish embryos. The study also reported developmental and cardiotoxic effects at lower concentrations. Because these are literature-derived values, they should be identified as literature data rather than QSAR Toolbox measurements.
+5. Source References
+Suthamnatpong, N. & Ponpornpisit, A. (2017). Effects of monosodium glutamate on heart beat and the embryonic development of zebrafish. The Thai Journal of Veterinary Medicine, 47(4), 523–530.

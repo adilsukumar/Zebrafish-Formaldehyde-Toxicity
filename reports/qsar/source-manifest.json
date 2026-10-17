@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Formaldehyde.docx",
+    "original_filename": "FORMALDEHYDE QCAR REPORT.docx",
+    "sha256": "56b709a2444a6fede8746fb3f7921971b5da7f8db04e635c4ad0234c0f8590f6"
+  },
+  {
+    "file": "Ethanol.docx",
+    "original_filename": "ETHANOL QSAR REPORT.docx",
+    "sha256": "52c70e73bb641ab90ae2e626276d54cdfa7045a0ad2c48ab2acbdfef855ade7e"
+  },
+  {
+    "file": "Sodium-Benzoate.docx",
+    "original_filename": "SODIUM BENZOATE QSAR REPORT.docx",
+    "sha256": "78f7c5758bbde0607627439dd4372476a8a227a8b835e3ba81c52f4d6a241c14"
+  },
+  {
+    "file": "Monosodium-Glutamate.docx",
+    "original_filename": "MSG_QSAR_REPORT.docx",
+    "sha256": "5825b28bc16e87dc8b148123e95283cd4a04c93bbed4a4f7e336aefbebb60599"
+  },
+  {
+    "file": "Erythrosine-B.docx",
+    "original_filename": "Erythrosine_QSAR_REPORT.docx",
+    "sha256": "efdd6285c2014b9628fb4339136b6bd24fa306b47a0e5639fa3aa0df43d511c4"
+  },
+  {
+    "file": "Sunset-Yellow.docx",
+    "original_filename": "Sunset_Yellow_QSAR_REPORT.docx",
+    "sha256": "71998557a69e7213fbb6174c0ebcb3f918d68dd9f2ea769eab6170c4c7e2d786"
+  }
+]

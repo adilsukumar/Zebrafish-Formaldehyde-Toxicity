@@ -1,0 +1,87 @@
+SOURCE REPORT TRANSCRIPTION — see README.md for provenance and known issues.
+
+QSAR Toolbox – Sunset Yellow FCF (E110) Report
+
+PHYSICOCHEMICAL PROPERTY REPORT – SUNSET YELLOW FCF (E110)
+1. CHEMICAL IDENTIFICATION
+Parameter
+Value
+Chemical name
+Sunset Yellow FCF (E110)
+CAS No.
+2783-94-0
+Molecular formula
+C₁₆H₁₀N₂Na₂O₇S₂
+Molecular weight
+452.4 g/mol
+SMILES
+O=S([O-])(C1=CC=C(C=C1)N=NC2=C(C=CC3=CC(S(=O)([O-])=O)=CC=C32)O)=O.[Na+].[Na+]
+2. PHYSICOCHEMICAL PROPERTIES
+Property
+Reference value
+Physical state
+Crystalline solid / orange-red crystals or red powder
+Melting point
+Not consistently reported in the sources reviewed
+Water solubility
+Highly water soluble; formulation-dependent values reported
+Molecular weight
+452.4 g/mol
+Partition coefficient
+Expected low hydrophobic partitioning because of two sulfonate groups
+pH
+Commercial lake/formulation specifications can vary; aqueous behavior is pH dependent
+Stability
+Used as a synthetic food colorant; ionic sulfonate groups favor aqueous mobility
+3. RELEVANCE TO AQUATIC TOXICITY
+Sunset Yellow FCF is a disulfonated azo dye and therefore exists predominantly as an ionic species in aqueous media. Its sulfonate groups promote water solubility and reduce the tendency for neutral-phase partitioning. These properties are relevant to aquatic exposure and zebrafish embryo toxicity.
+4. SOURCE REFERENCES
+PubChem, Sunset Yellow FCF (C.I. Food Yellow 3).
+Cayman Chemical, Sunset Yellow FCF technical information.
+European Union specification for E110 Sunset Yellow FCF.
+AQUATIC TOXICITY REPORT – Sunset Yellow FCF (E110)
+1. Chemical Identity
+Parameter
+Value
+Chemical
+Sunset Yellow FCF (E110)
+CAS
+2783-94-0
+Molecular formula
+C₁₆H₁₀N₂Na₂O₇S₂
+SMILES
+O=S([O-])(C1=CC=C(C=C1)N=NC2=C(C=CC3=CC(S(=O)([O-])=O)=CC=C32)O)=O.[Na+].[Na+]
+2. Zebrafish Aquatic Toxicity
+Primary literature record selected for the practical; exposure duration and LC50 are retained exactly as reported.
+Parameter
+Recorded value
+Organism
+Danio rerio (zebrafish) embryos
+Effect
+Mortality
+Endpoint
+LC50
+Exposure window
+Embryos exposed from ~6 hpf; observations through 168 hpf
+LC50
+42.57 mM
+Life stage
+Developing embryos / larvae
+Study
+Food colorant Sunset Yellow (E110) intervenes developmental profile of zebrafish (Danio rerio)
+Source
+Published literature
+3. Selected Toxicity-Relevant Profiling
+Profiler
+Result
+Developmental toxicity
+Teratogenic/embryotoxic effects reported
+NOEC
+0.1 mM
+EC50
+19.41 mM for pericardial edema; 39.84 mM for yolk sac edema at 96 hpf
+4. Working Interpretation
+The selected literature study reported an LC50 of 42.57 mM for Sunset Yellow FCF in developing zebrafish. The study also reported developmental abnormalities and mortality at higher concentrations. A separate recent study reported 416.67 ppm, demonstrating that LC50 values can vary with experimental design and units; the selected report retains the 42.57 mM value exactly as reported by the primary paper.
+5. Source References
+Sunset Yellow FCF PubMed record: Food colorant Sunset Yellow (E110) intervenes developmental profile of zebrafish (Danio rerio).
+Agustin & Sari, The effect of sunset yellow food coloring (E110) on zebrafish embryos development (reported LC50 416.67 ppm).

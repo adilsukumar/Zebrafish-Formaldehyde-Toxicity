@@ -1,0 +1,84 @@
+SOURCE REPORT TRANSCRIPTION — see README.md for provenance and known issues.
+
+QSAR Toolbox – Erythrosine B (E127) Report
+
+PHYSICOCHEMICAL PROPERTY REPORT – ERYTHROSINE B (E127)
+1. CHEMICAL IDENTIFICATION
+Parameter
+Value
+Chemical name
+Erythrosine B (E127)
+CAS No.
+16423-68-0
+Molecular formula
+C₂₀H₆I₄Na₂O₅
+Molecular weight
+879.86 g/mol
+SMILES
+[O-]C(=O)C1=CC=CC=C1C1=C2C=C(I)C(=O)C(I)=C2OC2=C1C=C(I)C([O-])=C2I.[Na+].[Na+]
+2. PHYSICOCHEMICAL PROPERTIES
+Property
+Reference value
+Physical state
+Solid; red powder or granules
+Melting point
+≈315 °C (supplier value; other records vary)
+Water solubility
+≈100 g/L
+pH
+≈6–7 at 10 g/L in water
+Density
+≈0.625–0.731 g/cm³ reported by supplier
+Partition coefficient
+Computed XlogP3-AA ≈6 for the neutral parent record; ionic sodium salt behavior should be interpreted cautiously
+Stability
+Solid dye; handling and formulation conditions affect aqueous behavior
+3. RELEVANCE TO AQUATIC TOXICITY
+Erythrosine B is a heavily iodinated xanthene dye supplied commonly as its disodium salt. It is a solid, water-soluble colorant with substantial molecular weight. Because the molecule is ionic in its salt form, physicochemical descriptors such as logP must be interpreted carefully and should not be treated as simple neutral-organic values.
+4. SOURCE REFERENCES
+PubChem, Erythrosine (CID 3259).
+Merck/Sigma-Aldrich, Erythrosine B (CAS 16423-68-0).
+AQUATIC TOXICITY REPORT – Erythrosine B (E127)
+1. Chemical Identity
+Parameter
+Value
+Chemical
+Erythrosine B (E127)
+CAS
+16423-68-0
+Molecular formula
+C₂₀H₆I₄Na₂O₅
+SMILES
+[O-]C(=O)C1=CC=CC=C1C1=C2C=C(I)C(=O)C(I)=C2OC2=C1C=C(I)C([O-])=C2I.[Na+].[Na+]
+2. Zebrafish Aquatic Toxicity
+Primary literature record selected for the practical; exposure duration and LC50 are retained exactly as reported.
+Parameter
+Recorded value
+Organism
+Danio rerio (zebrafish) embryos
+Endpoint
+LC50
+LC50
+No verified numerical LC50 located in the literature sources reviewed
+Study evidence
+Erythrosine B produced concentration-dependent developmental toxicity
+Exposure concentrations
+1, 10, 50, 100 and 1000 µg/mL
+Observation period
+12–96 hpf
+Study
+Erythrosine Induces Teratogenic Effects Via Activation of ROS Biogenesis in Zebrafish Embryos
+Source
+Published literature; DOI 10.1007/s40995-018-0612-y
+3. Selected Toxicity-Relevant Profiling
+Profiler
+Result
+Developmental toxicity
+Concentration-dependent reduction in survival, hatching and heart rate
+Mechanistic finding
+Oxidative-stress/ROS-related effects reported
+4. Working Interpretation
+For Erythrosine B, the reviewed zebrafish literature clearly supports developmental toxicity, but I did not find a verified numerical Danio rerio LC50 in the accessible sources. The report therefore does not invent an LC50 value. The published study exposed embryos to 1–1000 µg/mL and reported concentration-dependent reductions in survival and other developmental endpoints through 96 hpf. If the practical requires a numerical LC50 specifically, this entry should be marked as 'not reported/verified' rather than substituting an LD50 or another fish species.
+5. Source References
+Erythrosine Induces Teratogenic Effects Via Activation of ROS Biogenesis in Zebrafish Embryos. DOI: 10.1007/s40995-018-0612-y.
+Gupta et al., Toxic Effects of Food Colorants Erythrosine and Tartrazine on Zebrafish Embryo Development.

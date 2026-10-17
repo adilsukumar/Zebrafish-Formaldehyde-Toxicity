@@ -1,0 +1,113 @@
+SOURCE REPORT TRANSCRIPTION — see README.md for provenance and known issues.
+
+QSAR Toolbox – Formaldehyde Record
+
+
+PHYSICOCHEMICAL PROPERTY REPORT – FORMALDEHYDE
+1. CHEMICAL IDENTIFICATION
+Chemical name
+Formaldehyde
+CAS No.
+50-00-0
+Molecular formula
+CH₂O (HCHO)
+Molecular weight
+30.03 g/mol
+SMILES
+C=O
+2. PHYSICOCHEMICAL PROPERTIES
+Property
+Reference value
+Physical state
+Gas at room temperature (pure formaldehyde)
+Melting/freezing point
+≈ −92 °C
+Boiling point
+≈ −19.5 °C
+Density
+≈ 0.815 g/mL for liquid formaldehyde at about −20 °C
+Water solubility
+≈ 400 g/L at 25 °C
+Partition coefficient (log Kow)
+≈ 0.35; reported range includes approximately −0.75 to 0.35
+pKa
+≈ 13.27 at 25 °C
+Vapour pressure
+≈ 3883–3890 mm Hg at 25 °C
+Flammability/reactivity
+Highly reactive; flammable and readily polymerizes under suitable conditions
+Stability
+Reactive; incompatible with strong acids/bases and oxidizing conditions
+pH
+Depends on the aqueous solution/formulation; not a fixed property of pure gaseous formaldehyde
+3. RELEVANCE TO AQUATIC TOXICITY
+Formaldehyde is a very small, highly reactive and highly volatile compound. Its low boiling point means that pure formaldehyde exists as a gas at ordinary temperature. It is highly soluble in water and is commonly handled as aqueous formaldehyde solutions. Its chemical reactivity, volatility and high water solubility are important when considering environmental exposure and aquatic toxicity.
+4. SOURCE REFERENCES
+U.S. National Toxicology Program, 15th Report on Carcinogens – Properties of Formaldehyde.
+U.S. EPA IRIS, Toxicological Review of Formaldehyde – Appendix A.
+
+TOXICITY REPORT – FORMALDEHYDE
+1. Chemical Identity
+Parameter
+Value
+Chemical
+Formaldehyde
+CAS
+67-47-0
+2. Zebrafish Aquatic Toxicity
+Selected primary record: Danio rerio mortality LC50 at 96 h.
+Parameter
+Recorded value
+Organism
+Danio rerio (zebrafish)
+Effect
+Mortality
+Endpoint
+LC50
+Exposure duration
+96 h
+LC50
+41 mg/L
+Medium
+Freshwater
+Study type
+Experimental study
+Reliability
+2 (reliable with restrictions)
+Test condition
+Static
+Source
+Wellens, H. (1982), Z. Wasser-Abwasser-Forsch.
+3. Selected Toxicity-Relevant Profiling
+Profiler
+Result
+Acute aquatic toxicity classification
+Class 3
+Acute aquatic toxicity MOA by OASIS
+Aldehydes
+Aquatic toxicity classification by ECOSAR
+Aldehydes (Mono)
+Carcinogenicity
+No alert found
+DNA alerts for AMES, CA and MNT
+No alert found
+in vitro mutagenicity (Ames test)
+No alert found
+in vivo mutagenicity (Micronucleus)
+No alert found
+Oncologic Primary Classification
+Aldehyde Type Compound
+Respiratory sensitisation
+Schiff base formation
+Toxic hazard classification by Cramer
+Low (Class I)
+Ultimate biodeg
+0 to 1 day
+DNA binding by OECD
+Schiff base formers
+Protein binding by OASIS
+Schiff base formation
+Skin irritation/corrosion inclusion rule
+Aldehydes
+4. Working Interpretation
+Formaldehyde has a recorded Danio rerio mortality LC50 of 41 mg/L after 96 h. QSAR Toolbox profiling places it in Class 3 for acute aquatic toxicity and identifies aldehydes as the relevant aquatic toxicity mode of action. The ECOSAR classification is Aldehydes (Mono), while the Cramer profiler reports Low (Class I). The selected genotoxicity alert profilers report no alert found. Schiff base formation is identified by several mechanistic profilers.
