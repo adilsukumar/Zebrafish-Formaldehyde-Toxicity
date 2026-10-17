@@ -1,0 +1,4 @@
+group,nominal_ppm,exposed,deaths,duration_hours,life_stage
+control,0,10,1,96,adult
+formaldehyde_40,40,10,5,96,adult
+formaldehyde_100,100,10,10,96,adult

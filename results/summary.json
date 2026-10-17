@@ -1,0 +1,56 @@
+{
+  "scope": "Exploratory adult zebrafish screening; one vessel per group, not a validated population LC50",
+  "rows": [
+    {
+      "group": "control",
+      "nominal_ppm": 0.0,
+      "exposed": 10,
+      "deaths": 1,
+      "duration_hours": 96.0,
+      "life_stage": "adult",
+      "mortality": 0.1
+    },
+    {
+      "group": "formaldehyde_40",
+      "nominal_ppm": 40.0,
+      "exposed": 10,
+      "deaths": 5,
+      "duration_hours": 96.0,
+      "life_stage": "adult",
+      "mortality": 0.5
+    },
+    {
+      "group": "formaldehyde_100",
+      "nominal_ppm": 100.0,
+      "exposed": 10,
+      "deaths": 10,
+      "duration_hours": 96.0,
+      "life_stage": "adult",
+      "mortality": 1.0
+    }
+  ],
+  "control_mortality": 0.1,
+  "corrected_responses": [
+    0.4444444444444445,
+    1.0
+  ],
+  "primary": {
+    "upper_endpoint_convention": 0.975,
+    "intercept": -3.592753699860271,
+    "slope": 5.276358842200162,
+    "descriptive_50_percent_crossing_nominal_ppm": 42.51464285807945
+  },
+  "endpoint_sensitivity": {
+    "upper_endpoint_convention": 0.95,
+    "intercept": -2.3241562084183744,
+    "slope": 4.484504917684923,
+    "descriptive_50_percent_crossing_nominal_ppm": 42.97481330024211
+  },
+  "limitations": [
+    "Two nonzero nominal concentrations",
+    "No independent vessel replication",
+    "No confidence interval estimated",
+    "Concentrations were not analytically verified",
+    "Life stage follows the final adult report; earlier draft embryo labels are superseded"
+  ]
+}
